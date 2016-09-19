@@ -4,3 +4,5 @@ var HoneyMakerBee = function() {
   this.job = 'make honey';
 };
 
+HoneyMakerBee.prototype = Object.create(Grub.prototype);
+
